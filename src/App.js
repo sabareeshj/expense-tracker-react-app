@@ -1,6 +1,8 @@
 import React from 'react';
 import { Header } from './components/header'
 import { Balance } from './components/balance'
+import { IncomeExpenses } from './components/incomeExpenses'
+import { TransactionList } from './components/transactionList'
 import './App.css';
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
       <Header />
       <div className="container">
         <Balance />
+        <IncomeExpenses />
+        <TransactionList />
       </div>
     </div>
   );
